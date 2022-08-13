@@ -1,0 +1,265 @@
+html {
+    background-color: #F4F7F8;
+    padding: 0 9rem;
+}
+
+span {
+    font-size: 25px;
+    color: #989898;
+}
+
+
+
+/* Class Selectors */
+
+.icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #FFFFFF;
+    margin-right: 10px;
+    filter: drop-shadow(-8px 8px 10px rgb(222, 222, 222));
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #FFFFFF;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 45px;
+    word-spacing: 10px;
+    padding-top: 3rem;
+}
+
+.sub-title {
+    display: inline-block;
+    margin: 1.5rem 0;
+    width: 395px;
+    font-weight: bold;
+    font-size: 1rem;
+    word-spacing: 2px;
+    line-height: 1.6rem;
+    color: #989898;
+}
+
+.search-input {
+    border: none !important;
+    width: 37rem;
+    box-shadow: none !important;
+}
+
+.fa-solid {
+    height: 40px;
+    width: 40px;
+    margin-top: 20px;
+}
+
+.feature-icon {
+    height: 1.4rem;
+    width: 1.4rem;
+}
+
+.vector-card-style {
+    border-radius: 6% !important;
+    filter: drop-shadow(-8px 8px 10px rgb(222, 222, 222));
+    height: 27rem;
+}
+
+.feature-img {
+    padding: 20px 20px 15px;
+    border-radius: 2rem;
+    height: 100%;
+}
+
+.feature-title {
+    font-size: 50px;
+}
+
+.card {
+    border-width: 0 !important;
+}
+
+.card-body {
+    padding-top: 0 !important;
+}
+
+.Downloads {
+    font-weight: bolder;
+    font-size: 28px;
+    color: black;
+}
+
+.footer-text {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+    width: 160px;
+}
+
+.footer-image {
+    width: 4rem;
+    height: 4rem;
+    background-color: #E6EAF7;
+    border-radius: 12px;
+    border: 2px solid white;
+    padding: 5px;
+    display: inline;
+    position: absolute;
+}
+
+.footer-image:hover {
+    width: 4.2rem;
+    height: 4.2rem;
+    z-index: 10;
+}
+
+.img1 {
+    z-index: 0;
+    left: 20rem;
+}
+
+.img2 {
+    z-index: 1;
+    left: 22rem;
+}
+
+.img3 {
+    z-index: 2;
+    left: 24rem;
+}
+
+.img4 {
+    z-index: 3;
+    left: 26rem;
+}
+
+.next-button {
+    background-color: white !important;
+    width: 240px;
+    height: 4rem;
+    margin-left: 60px;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: bold !important;
+}
+
+.page-toggle {
+    width: 220px;
+    font-size: 1rem;
+}
+
+.page-toggle-item {
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #555;
+    display: inline;
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    border-width: 1px;
+}
+
+
+
+/* ID Selectors */
+
+#navigation-bar {
+    margin-top: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    background-color: #F4F7F8;
+}
+
+#submit-button {
+    font-weight: bold;
+    width: 7.7rem;
+    height: 3.4rem;
+    color: #989898;
+    border-color: #989898;
+    border-width: 2px;
+    margin-right: 35px;
+    border-radius: 10px;
+    box-shadow: none;
+}
+
+#content-body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F4F7F8;
+}
+
+#search-bar {
+    height: 3.8rem;
+    width: 37rem;
+    border-radius: 12px;
+    background-color: white;
+}
+
+#search-button {
+    margin: 8px;
+    border-radius: 8px;
+    border-color: black;
+    color: black !important;
+    font-weight: bold !important;
+}
+
+#feature-bar {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F4F7F8;
+    font-weight: 500;
+    padding: 2rem 0 1rem;
+}
+
+#vector-cards {
+    background-color: #F4F7F8;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+#footer {
+    background-color: #F4F7F8;
+    text-align: center;
+    padding: 3.5rem 0;
+}
+
+
+
+/* Special Calls */
+
+#navigation-bar li.nav-item {
+    padding: 0 13px;
+}
+
+#feature-bar a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0 1.1rem;
+    color: black;
+}
+
+/* Some more css */
+
+.previous-next-button {
+    text-decoration: none;
+    display: inline-block;
+    padding: 3px 12px 4px;
+    border-radius: 4px;
+}
+  
+.previous-next-button:hover {
+    background-color: #ddd;
+    color: black;
+    font-weight: bolder;
+}
+  
+.previous-next-button {
+    background-color: #f1f1f1;
+    color: black;
+}
